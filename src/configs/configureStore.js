@@ -2,7 +2,7 @@ import { applyMiddleware, compose, createStore } from 'redux'
 import thunkMiddleware from 'redux-thunk'
 import monitorReducersEnhancer from './monitorReducers'
 import loggerMiddleware from './logger'
-import rootReducer from './reducers/rootReducer'
+import rootReducer from '../reducers/rootReducer'
 
 //seperating our store creation keeps our index.js clean
 export default function configureStore(preloadedState) {
