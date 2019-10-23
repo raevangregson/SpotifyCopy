@@ -1,3 +1,15 @@
+## What I Hope to Accomplish
+This app will be a copy cat of the [Spotify desktop app](https://open.spotify.com/collection/playlists). At this point I have decided to use the [styled-components library](https://www.styled-components.com/) for styling, and [Redux](https://redux.js.org/) for state management. I am most familiar with creating and using class component based React projects, so for this project I hope to make it purely functional component based as well as using the new [React Hook](https://reactjs.org/docs/hooks-intro.html)'s feature.
+
+I hope to focus on organization - writing thorough and thoughtful PR's where writing out the process, will help me continue to learn even when I think I may already know something. Hopefully, I will be able to learn something new with every PR I put up. I would like to hold myself to high standards for organization of thought, and code - writing neat, readable code with well articulated comments when needed. Code that does well balancing effectiveness, and maintainability.
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
