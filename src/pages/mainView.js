@@ -1,14 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
+import Wrapper from '../components/wrapper';
 
-const View = styled.section`
-height: 100%; 
-position: fixed;
-width:86%;
-right: 0;
-top:0;
-z-index: 1;
+const View = styled(Wrapper)`
 background-color: #121212;
+background-image:none;
 `;
 
 function MainView() {

@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import Wrapper from '../styledComponents/wrapper'
-import Logo from '../styledComponents/logo'
+import Wrapper from '../components/wrapper'
+import Logo from '../components/logo'
 import  White_Spotify_Logo from '../../src/White_Spotify_Logo.png';
-import Button from '../styledComponents/button'
+import Button from '../components/button'
 
 const LoginForm = styled.section`
 height: 80%; 
