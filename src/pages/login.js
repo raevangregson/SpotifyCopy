@@ -1,6 +1,9 @@
 import React from 'react';
-import Button from '../components/button'
 import styled from 'styled-components';
+import Wrapper from '../styledComponents/wrapper'
+import Logo from '../styledComponents/logo'
+import  White_Spotify_Logo from '../../src/White_Spotify_Logo.png';
+import Button from '../styledComponents/button'
 
 const LoginForm = styled.section`
 height: 80%; 
@@ -9,15 +12,17 @@ width:25%;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-z-index: 1;
-background-color: #32a852;
+background-color: #080a07;
 `;
 
 function Login() {
   return (
-    <LoginForm>
-    <Button/>        
-    </LoginForm>
+    <Wrapper>
+      <LoginForm>
+        <Logo src={White_Spotify_Logo}/>
+        <Button href={"http://localhost:3001/authorize"}>Login</Button>        
+      </LoginForm>
+    </Wrapper>
   );
 }
 

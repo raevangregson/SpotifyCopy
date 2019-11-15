@@ -8,7 +8,7 @@ width:86%;
 right: 0;
 top:0;
 z-index: 1;
-background-color: #27b83f;
+background-color: #121212;
 `;
 
 function MainView() {
