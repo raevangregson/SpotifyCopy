@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import Icon from '../icon'
-import Home from '../../src/home.png'
-import Library from '../../src/library.png'
-import Search from '../../src/search.png'
+import Home from '../../home.png'
+import Library from '../../library.png'
+import Search from '../../search.png'
 import MenuItem from '../menuItem'
 
 const Wrapper = styled.div`
