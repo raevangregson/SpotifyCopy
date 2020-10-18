@@ -2,16 +2,20 @@ import React from 'react';
 import White_Spotify_Logo from '../../src/White_Spotify_Logo.png';
 import styled from 'styled-components';
 import Logo from '../components/logo'
-import MenuItem from '../components/menuItem'
+import MainMenu from '../components/SideMenu/mainMenu'
+import PlaylistMenu from '../components/SideMenu/playlistMenu'
 
 
 const SideBar = styled.section`
 height: 100%; 
 width:232px;
+display: flex;
+flex-direction: column;
 position: fixed;
 z-index: 1;
 top: 0;
 left: 0;
+padding-top: 85px;
 overflow-x: hidden;
 background-color: #040404;
 `;
@@ -25,14 +29,12 @@ height: 40px;
 position: fixed;
 `
 
-const List = styled.div`
-`
-
 function SideNav() {
   return (
     <SideBar>
     <SideBarLogo src={White_Spotify_Logo}/>
-    <MenuItem>Home</MenuItem>
+    <MainMenu/>
+    <PlaylistMenu/>
     </SideBar>
   );
 }

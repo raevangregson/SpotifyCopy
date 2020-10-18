@@ -8,4 +8,5 @@ import styled from 'styled-components';
   height: 90px; 
   position: fixed;
 `;
+
 export default Logo

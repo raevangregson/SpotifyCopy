@@ -3,10 +3,10 @@ import styled from 'styled-components';
 const MenuItem = styled.p`
 font-family:'Nunito-Bold', sans-serif;
 font-size: 14px;
-top: 80px;
-left: 60px;
-position: fixed;
-color: ${props => props.color='selected'? '#ffffff' : '#7c7c7c'};
+margin-left: 25px;
+display:flex;
+margin-top:25px;
+color: ${props => props.color? '#ffffff' : '#9d9d9d'};
 `;
 
 export default MenuItem
