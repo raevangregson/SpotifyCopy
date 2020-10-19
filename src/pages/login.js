@@ -20,7 +20,7 @@ function Login() {
     <Wrapper>
       <LoginForm>
         <Logo src={White_Spotify_Logo}/>
-        <Button href={"http://localhost:3001/authorize"}>Login</Button>        
+        <Button href={"http://localhost:3001/authorize"}>Login to spotify</Button>        
       </LoginForm>
     </Wrapper>
   );
